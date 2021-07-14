@@ -30,6 +30,10 @@ a{
     height: 24px;
     margin-left: 8px;
 }
+h5{
+    text-align: center;
+    margin-top: 20px;
+}
  /*==========================
     Header section Start
  ============================ */
@@ -161,9 +165,28 @@ a{
     width: 567px;
 }
 
-
-
-
  /*==========================
     Highlight section End
+ ============================ */
+  /*==========================
+    Footer section Start
+ ============================ */
+.footer-section {
+    width: 22%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.footer-section img {
+    width: 280px;
+    margin-top: 50px;
+}
+.fab{
+    padding: 12px 10px;
+}
+.social-icon{
+    text-align: center;
+}
+
+  /*==========================
+    Footer section End
  ============================ */
