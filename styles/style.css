@@ -24,15 +24,20 @@ a{
     font-size: 16px;
     font-weight: 500;
 }
+a:hover{
+    color: #E02C6D;
+}
 .fas{
     color: white;
     width: 24px;
     height: 24px;
     margin-left: 8px;
 }
-h5{
+h5 {
     text-align: center;
     margin-top: 20px;
+    word-spacing: 7px;
+    letter-spacing: 4px;
 }
  /*==========================
     Header section Start
@@ -55,6 +60,9 @@ h5{
     padding: 10px 40px;
     margin-left: 20px;
 }
+.login-btn a:hover{
+    color: #2D25A0;
+}
  /*==========================
     Header section End
  ============================ */
@@ -76,6 +84,10 @@ h5{
     background-color: #E02C6D;
     padding: 10px 24px;
     margin-left: 2px;
+    color: white;
+}
+.text-container a:hover{
+    color: #2D25A0;
 }
 .text-container h1 {
     color: white;
@@ -161,6 +173,9 @@ h5{
     margin-left: 2px;
 
  }
+ .highlight-text-container a:hover{
+     color: #2D25A0;
+ }
 .image-container img{
     width: 567px;
 }
@@ -190,3 +205,28 @@ h5{
   /*==========================
     Footer section End
  ============================ */
+ /* =========================
+    Mobile Device Style
+    ========================= */
+@media only screen and (max-width:688px) {
+        #header-section{
+            background-color: lightseagreen;
+        }
+        .hero-container {
+            width: 50%;
+            margin-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .players-card{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .highlight{
+            flex-direction: column;
+        }
+        .full-website{
+            width: 50%;
+            height: 100%;
+        }
+    }
