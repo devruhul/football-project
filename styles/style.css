@@ -225,8 +225,5 @@ h5 {
         .highlight{
             flex-direction: column;
         }
-        .full-website{
-            width: 50%;
-            height: 100%;
-        }
+       
     }
